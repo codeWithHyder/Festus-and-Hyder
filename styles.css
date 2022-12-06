@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-#menubar{
+#navbar{
     display:flex;
    
 background-color: firebrick;
@@ -13,7 +13,7 @@ left:0;
 width:100%;
 position: fixed;
 }
-#menubar ul{
+#navbar ul{
 
     padding-top: 15px;
     display: flex;
@@ -23,7 +23,7 @@ position: fixed;
     
 }
 
-#menubar ul li{
+#navbar ul li{
     margin-right: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight:bolder;
@@ -32,11 +32,11 @@ position: fixed;
     
 
 }
-#menubar ul a{
+#navbar ul a{
     text-decoration: none;
     
 }
-#menubar ul li:hover{
+#navbar ul li:hover{
     display:block;
     background-color: darkslategray;
     color:white;
@@ -63,7 +63,7 @@ position: fixed;
     display: flex;
     flex-flow:row wrap;
     background-color: darkslategray;
-    height:1200px;
+    height:1290px;
     width:100%;
 }
  #projects{
@@ -81,7 +81,7 @@ hr{
     
     
     
-    ;
+    
     height:500px;
     width:400px;
     margin-right: 10px;
@@ -90,7 +90,7 @@ hr{
  .caption{
     background-color: rgb(56, 56, 59);
     width:400px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: center;
     height: 30px;
     padding-top: 4px;
